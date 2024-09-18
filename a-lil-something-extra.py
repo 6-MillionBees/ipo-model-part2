@@ -22,7 +22,7 @@ while True: # The while loop is so you don't have to re-enter your numbers if yo
         total = num1 / num2
         break
     else:
-        print(Fore.RED + '\nInvalid number please try again. \n' + Fore.RESET)
+        print(Fore.RED + '\nInvalid opperation please try again. \n' + Fore.RESET)
         operation = input(Fore.GREEN + "Renter your Operation \nType '+' for addition, '-' for subtraction, '*' for multiplication, and '/' for division. No spaces of \n" + Fore.RESET)
 
 total_find = str(total).find('.')
