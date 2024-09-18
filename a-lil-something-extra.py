@@ -8,7 +8,7 @@ num1 = float(input('Enter a number: '))
 operation = input(f"Enter your Operation \n{Fore.RED}ONLY{Fore.RESET} type '+' for addition, '-' for subtraction, '*' for multiplication, and '/' for division. \n")
 num2 = float(input('Enter another number: '))
 
-while True: # the while loop is for 
+while True: # The while loop is so you don't have to re-enter your numbers if you mess up the operation
     if operation == '+':
         total = num1 + num2
         break
