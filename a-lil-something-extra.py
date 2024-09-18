@@ -2,7 +2,7 @@
 # 9/18/24
 # Numbers Practice
 
-from colorama import Fore # Everything that starts with Fore is for coloring the text
+from colorama import Fore # Everything that starts with Fore is for coloring the text so it looks nice :)
 
 num1 = float(input('Enter a number: '))
 operation = input(f"Enter your Operation \n{Fore.RED}ONLY{Fore.RESET} type '+' for addition, '-' for subtraction, '*' for multiplication, and '/' for division. \n")
